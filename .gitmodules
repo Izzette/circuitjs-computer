@@ -1,0 +1,3 @@
+[submodule "customasm"]
+	path = customasm
+	url = https://github.com/hlorenzi/customasm.git

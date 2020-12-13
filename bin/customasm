@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+readonly bin='customasm/target/release/customasm'
+
+if ! [ -f "$bin" ] || ! [ -x "$bin" ]; then
+  git submodule update --init --recursive
+  ( cd customasm && cargo build --bin customasm --release )
+fi
+
+exec "$bin" "$@"
