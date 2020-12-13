@@ -8,7 +8,7 @@ With a total of 16 4-bit words (8 bytes) of program ROM and two 4-bit general
 purpose registers, and a 4-bit adder … it really packs a punch!
 I hope you find this fun and maybe even learn something too.
 
-![Circuit Image](https://github.com/Izzette/circuitjs-computer/blob/master/image.jpg?raw=true)
+![Circuit Image](https://github.com/Izzette/circuitjs-computer/blob/master/circuit.png?raw=true)
 
 ## How to run
 
